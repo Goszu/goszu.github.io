@@ -106,6 +106,7 @@ nav a {
 .inner {
   display: flex;
   flex-direction: column;
+  max-width: 1024px;
 }
 
 #map {
