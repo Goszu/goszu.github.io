@@ -13,8 +13,17 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   border: 0
 }
 
-header, section, article {
+time {
+  color: #fff;
+  font-size: 26px;
+}
+
+header, section {
   flex-direction: column;
+}
+
+article {
+  flex-direction: row;
 }
 
 header {
@@ -26,9 +35,8 @@ section {
   margin-bottom: 20px;
 }
 
-section.weekend {
-  margin-top: 20px;
-  margin-left: 8%;
+section.offset {
+  margin: 20px 8% 0 8%;
 }
 
 ol, ul {
@@ -53,22 +61,20 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat
+  color: #957d7f;
 }
 
 a {
-  color: #d5000d
+  color: #604f5e;
+  font-size: 23px;
 }
 
 a:hover {
-  color: #c5000c
+  color: #957d7f;
 }
 
 img {
   align-self: center;
-  width: 100%;
 }
 
 nav a {
@@ -78,18 +84,26 @@ nav a {
 .center {
   align-items: center;
   justify-content: center;
+  text-align: center;
+}
+
+.wide {
+  width: 100%;
+}
+
+.intro {
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) no-repeat;
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
 .inner {
-  min-width: 800px;
   display: flex;
   flex-direction: column;
 }
@@ -101,7 +115,8 @@ nav a {
 }
 
 h1 {
-  font-size: 32px
+  font-size: 32px;
+  color: #f5d0b0;
 }
 
 h2 {
@@ -115,7 +130,7 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d
+  color: #513e4e;
 }
 
 h4 {
