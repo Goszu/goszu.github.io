@@ -29,6 +29,8 @@ article {
 header {
   align-items: center;
   background: #957d7f;
+  height: 155px;
+  justify-content: center;
 }
 
 section {
@@ -107,6 +109,30 @@ nav a {
   display: flex;
   flex-direction: column;
   max-width: 1024px;
+}
+
+.img {
+  height: 50vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.img h2 {
+  color: #fff;
+  text-shadow: 0 0 8px black;
+  font-size: 40px;
+}
+
+.info {
+  background: url("../images/info.jpg") center/cover no-repeat;
+}
+
+.contact {
+  background: url("../images/kontakt.jpg") center/cover no-repeat;
+}
+
+.secondary-text {
+  color: #957d7f;
 }
 
 #map {
