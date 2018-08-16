@@ -49,12 +49,23 @@ header {
   justify-content: center;
 }
 
+svg {
+  align-self: center;
+  margin-right: 20px;
+}
+
 section {
+  margin-top: 46px;
   margin-bottom: 20px;
 }
 
+section.no-offset-top {
+  margin-top: 0;
+}
+
 section.offset {
-  margin: 46px 8% 0 8%;
+  margin-left: 8%;
+  margin-right: 8%;
 }
 
 section.offset-top {
@@ -153,6 +164,14 @@ aside time {
   color: #fff;
   text-shadow: 0 0 8px black;
   font-size: 40px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.secondary-text.link:hover {
+  color: #9c9899;
 }
 
 .info {
