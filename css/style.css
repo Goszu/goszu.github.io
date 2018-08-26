@@ -155,6 +155,10 @@ aside time {
   display: none;
 }
 
+.timer {
+  margin-top: 60px;
+}
+
 .center {
   align-items: center;
   justify-content: space-evenly;
