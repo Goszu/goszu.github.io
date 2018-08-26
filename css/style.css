@@ -23,7 +23,7 @@ time {
 }
 
 header time {
-  color: #fff;
+  color: #957d7f;
   font-family: 'Frank Ruhl Libre', serif;
   font-weight: bold;
 }
@@ -48,7 +48,6 @@ article {
 
 header {
   align-items: center;
-  background: #957d7f;
   height: 255px;
   justify-content: center;
 }
@@ -82,6 +81,29 @@ section.offset-bottom {
 
 section.img p {
   color: #fff;
+}
+
+section.stripes {
+  position: relative;
+}
+
+section.stripes::before, section.stripes::after {
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  content: '';
+  width: 150px;
+  height: 30px;
+  background: #957d7f;
+  transform: rotate(-45deg);
+}
+
+section.stripes::after {
+  top: auto;
+  left: auto;
+  bottom: 10px;
+  right: 50px;
+  transform: rotate(-45deg);
 }
 
 ol, ul {
@@ -140,7 +162,7 @@ aside time {
 }
 
 .wide {
-  width: 100%;
+  width: 80%;
 }
 
 .row {
@@ -222,7 +244,7 @@ aside time {
 
 h1 {
   font-size: 6rem;
-  color: #f5d0b0;
+  color: #513e4e;
 }
 
 h2 {
@@ -273,6 +295,14 @@ p a {
     display: none;
   }
 
+  .wide {
+    width: 100%;
+  }
+
+  section.stripes::before, section.stripes::after {
+    display: none;
+  }
+
   h1 {
     font-size: 4.8rem;
   }
@@ -319,6 +349,10 @@ p a {
   #map {
     width: auto;
     height: 400px;
+  }
+
+  .large {
+    font-size: 4.4rem;
   }
 }
 
