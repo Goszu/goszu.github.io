@@ -80,6 +80,10 @@ section.offset-bottom {
   margin-bottom: 200px;
 }
 
+section.img p {
+  color: #fff;
+}
+
 ol, ul {
   list-style: none
 }
@@ -125,6 +129,10 @@ aside time {
   line-height: 1.2;
 }
 
+.mobile {
+  display: none;
+}
+
 .center {
   align-items: center;
   justify-content: space-evenly;
@@ -161,11 +169,11 @@ aside time {
   height: 50vw;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .img h2 {
   color: #fff;
-  text-shadow: 0 0 8px black;
   font-size: 4rem;
 }
 
@@ -183,6 +191,10 @@ aside time {
 
 .contact {
   background: url("../images/kontakt.jpg") center/cover no-repeat;
+}
+
+.contact a {
+  color: #fff;
 }
 
 .secondary-text {
@@ -253,6 +265,10 @@ p a {
     font-size: 50%;
   }
 
+  .mobile {
+    display: flex;
+  }
+
   .non-mobile {
     display: none;
   }
@@ -303,5 +319,11 @@ p a {
   #map {
     width: auto;
     height: 400px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+  section.contact h2 {
+    font-size: 3rem;
   }
 }
