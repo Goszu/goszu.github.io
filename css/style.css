@@ -164,7 +164,7 @@ _:-ms-lang(x), .center { justify-content: space-around; }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   .center {
-    align-items: normal;
+    align-items: stretch;
   }
 }
 
