@@ -274,7 +274,7 @@ h4 {
 
 p {
   margin: 2px 0 6px 0;
-  font-weight: 300;
+  font-weight: normal;
   font-size: 2rem;
 }
 
@@ -360,7 +360,7 @@ p a {
   }
 }
 
-@media only screen and (max-width: 374px) {
+@media only screen and (max-width: 413px) {
   section.contact h2 {
     font-size: 3rem;
   }
