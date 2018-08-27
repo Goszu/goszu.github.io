@@ -54,7 +54,7 @@
                 <a href="#kontakt">Kontakt</a>
             </nav>
 
-            <section class="offset" id="weekend">
+            <section class="offset padding-offset" id="weekend">
                 <h3>Weekend Ślubny <span class="non-mobile">|</span> <span class="secondary-text">Wedding weekend</span></h3>
 
                 <article>
@@ -140,8 +140,8 @@
                 <h4>Zajazd REN Iwiczno <br /> ul. Wczasowa 36, 83-260 Kaliska</h4>
                 <div id="map"></div>
             </section>
-            <section class="offset">
-                <h3 id="okolica">Okolice <span class="non-mobile">|</span> <span class="secondary-text">Around Iwiczno</span></h3>
+            <section class="offset padding-offset" id="okolica">
+                <h3>Okolice <span class="non-mobile">|</span> <span class="secondary-text">Around Iwiczno</span></h3>
                 <p>Najbliższe miasto to Starogard Gdański (około 22 min od Hotelu Iwiczno)</p>
                 <p class="secondary-text">The closest city is Starogard Gdanński (about 22km from the hotel)</p>
             </section>
@@ -187,14 +187,6 @@
     </div>
     <script src="js/map.js" type="text/javascript"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJA1GxE2nvdSUkqSC5EWVEg-8xe2MM2IM&callback=initMap"></script>
+    <script src="js/enhancements.js"></script>
 </body>
 </html>
-
-<script>
-    document.querySelectorAll('nav a').forEach((elem) => {
-      elem.addEventListener('click', (e) => {
-        e.preventDefault();
-        document.querySelector(elem.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
-</script>

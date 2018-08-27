@@ -79,6 +79,11 @@ section.offset-bottom {
   margin-bottom: 200px;
 }
 
+section.padding-offset {
+  margin-top: 0;
+  padding-top: 60px;
+}
+
 section.img p {
   color: #fff;
 }
@@ -104,24 +109,6 @@ section.stripes::after {
   bottom: 10px;
   right: 50px;
   transform: rotate(-45deg);
-}
-
-ol, ul {
-  list-style: none
-}
-
-blockquote, q {
-  quotes: none
-}
-
-blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
-  content: none
-}
-
-table {
-  border-spacing: 0;
-  border-collapse: collapse
 }
 
 body {
@@ -234,6 +221,23 @@ aside time {
 
 .large {
   font-size: 5.4rem;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 999;
+  width: 100%;
+  max-width: 1024px;
+  background: white;
+  height: 50px;
+  border-bottom: 1px solid #979797;
+}
+
+.padding-top {
+  padding-top: 85px;
 }
 
 #map {
