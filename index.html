@@ -189,3 +189,12 @@
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJA1GxE2nvdSUkqSC5EWVEg-8xe2MM2IM&callback=initMap"></script>
 </body>
 </html>
+
+<script>
+    document.querySelectorAll('nav a').forEach((elem) => {
+      elem.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.querySelector(elem.getAttribute('href')).scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+</script>
