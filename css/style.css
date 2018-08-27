@@ -154,6 +154,12 @@ aside time {
   text-align: center;
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .center {
+    justify-content: space-around;
+  }
+}
+
 @supports (-ms-accelerator: true) {
   .center {
     justify-content: space-around;
