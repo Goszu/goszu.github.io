@@ -76,7 +76,7 @@ section.offset-top {
 }
 
 section.offset-bottom {
-  margin-bottom: 200px;
+  margin-bottom: 130px;
 }
 
 section.padding-offset {
@@ -159,6 +159,11 @@ aside time {
 
 .row {
   flex-direction: row;
+  margin-bottom: 28px;
+}
+
+.col {
+  flex-direction: column;
   margin-bottom: 28px;
 }
 
@@ -338,7 +343,7 @@ p a {
     margin-right: 0;
   }
 
-  .row {
+  .row, .col {
     margin-bottom: 0;
   }
 
