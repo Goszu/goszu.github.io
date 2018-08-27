@@ -149,6 +149,7 @@ nav {
 
 aside time {
   line-height: 1.2;
+  padding-right: 15px;
 }
 
 .mobile {
@@ -340,10 +341,6 @@ p a {
   .inner {
     width: 94%;
     margin: 0 auto
-  }
-
-  aside {
-    display: none;
   }
 
   .article-content {
